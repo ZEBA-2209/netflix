@@ -1,0 +1,352 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+header{
+    background-color: black;
+    color: aliceblue;
+    height: 50px;
+    width: 100%;
+    padding-left: 20px;
+    
+   
+}
+#header{
+    position: absolute;
+    top: 20px;
+}
+
+#header1{
+  /* border: 2px solid; */
+  position: absolute;
+  top: 20px;
+  padding-left: 90px;
+  word-spacing: 20px;
+}
+#head2 {
+    position:absolute;
+    left: 1000px;
+    top:2px;
+   
+}
+.abc{
+    position:absolute;
+    top:2px;
+    left: 70px;
+}
+button{
+    background-color:black;
+    color: aliceblue;
+    position: absolute;
+    left: 150px;
+    bottom:10px;
+
+    
+}
+
+button+button{
+    background-color: red;
+    position: absolute;
+    bottom: 10px;
+    left: 200px;
+    border-radius: 20px;
+}
+section{
+    border: 2px solid black;
+    height: 200px;
+    width: 100%;
+}
+
+section h1{
+    position: absolute;
+    top: 130px;
+    left: 650px;
+    
+}
+
+section span h4{
+    position: absolute;
+    top: 180px;
+    left: 500px;
+    background-color: red;
+    border-radius: 30px;
+    
+}
+section span+span{
+    position: absolute;
+    top: 180px;
+    left: 600px;
+}
+section span+span+span{
+    position: absolute;
+    top: 180px;
+    left: 700px;
+}
+section span+span+span+span{
+    position: absolute;
+    top: 180px;
+    left: 800px;
+}
+section span+span+span+span+span{
+    position: absolute;
+    top: 180px;
+    left: 920px;
+}
+ footer{
+    border: 2px solid;
+    height: 270px;
+    width: 100%;
+    background-image:url("./bg.jpg");
+    background-position: center center;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    position: relative;
+    background-color:rgba(127, 255, 212, 0.753);
+    }
+    #demo1{
+        border: 2px solid;
+        height: 240px;
+        width: 210px;
+        position:absolute;
+      top: 300px;
+      left: 300px;
+    }
+    #demo2{
+        border: 2px solid;
+        height: 240px;
+        width: 210px;
+        position:absolute;
+      top: 300px;
+      left: 525px;
+      
+    }
+    #demo3{
+        border: 2px solid;
+        height: 240px;
+        width: 210px;
+        position:absolute;
+      top: 300px;
+      left: 745px;
+      
+    }
+    /* i{
+        position: relative;
+    display: inline-block;
+    background-color: #d52349;
+    width: 3em;
+    height: 1em;
+    padding-top: 80px;
+    border-top-left-radius: 1px;
+    border-top-right-radius: 1px;
+    /* margin: 0 0 4.5em 0; */
+    /* cursor: default;
+    font-size: 50px;
+     /* */ 
+    
+     *{
+        padding: 0%;
+        margin: 0%;
+        box-sizing: border-box;
+    }
+    header{
+        background-color: black;
+        color: aliceblue;
+        height: 50px;
+        width: 100%;
+        padding-left: 20px;
+        
+       
+    }
+    #header{
+        position: absolute;
+        top: 20px;
+    }
+    
+    #header1{
+      /* border: 2px solid; */
+      position: absolute;
+      top: 20px;
+      padding-left: 90px;
+      word-spacing: 20px;
+    }
+    #head2 {
+        position:absolute;
+        left: 1000px;
+        top:2px;
+       
+    }
+    .abc{
+        position:absolute;
+        top:2px;
+        left: 70px;
+    }
+    button{
+        background-color:black;
+        color: aliceblue;
+        position: absolute;
+        left: 150px;
+        bottom:10px;
+    
+        
+    }
+    
+    button+button{
+        background-color: red;
+        position: absolute;
+        bottom: 10px;
+        left: 200px;
+        border-radius: 20px;
+    }
+    section{
+        border: 2px solid black;
+        height: 200px;
+        width: 100%;
+    }
+    
+    section h1{
+        position: absolute;
+        top: 130px;
+        left: 650px;
+        
+    }
+    
+    section span h4{
+        position: absolute;
+        top: 180px;
+        left: 500px;
+        background-color: red;
+        border-radius: 30px;
+        
+    }
+    section span+span{
+        position: absolute;
+        top: 180px;
+        left: 600px;
+    }
+    section span+span+span{
+        position: absolute;
+        top: 180px;
+        left: 700px;
+    }
+    section span+span+span+span{
+        position: absolute;
+        top: 180px;
+        left: 800px;
+    }
+    section span+span+span+span+span{
+        position: absolute;
+        top: 180px;
+        left: 920px;
+    }
+     footer{
+        border: 2px solid;
+        height: 270px;
+        width: 100%;
+        background-image:url("./bg.jpg");
+        background-position: center center;
+        background-size: auto 100%;
+        background-repeat: no-repeat;
+        text-align: center;
+        position: relative;
+        background-color:rgba(127, 255, 212, 0.753);
+        }
+        #demo1{
+            border: 2px solid;
+            height: 240px;
+            width: 210px;
+            position:absolute;
+          top: 300px;
+          left: 300px;
+        }
+        #demo2{
+            border: 2px solid;
+            height: 240px;
+            width: 210px;
+            position:absolute;
+          top: 300px;
+          left: 525px;
+          
+        }
+        #demo3{
+            border: 2px solid;
+            height: 240px;
+            width: 210px;
+            position:absolute;
+          top: 300px;
+          left: 745px;
+          
+        }
+        /* i{
+            position: relative;
+        display: inline-block;
+        background-color: #d52349;
+        width: 3em;
+        height: 1em;
+        padding-top: 80px;
+        border-top-left-radius: 1px;
+        border-top-right-radius: 1px;
+        /* margin: 0 0 4.5em 0; */
+        /* cursor: default;
+        font-size: 50px;
+         /* */ 
+        
+         <!DOCTYPE html>
+         <html lang="en">
+         <head>
+             <meta charset="UTF-8">
+             <meta name="viewport" content="width=device-width, initial-scale=1.0">
+             <title>Document</title>
+             <link rel="stylesheet" href="b.css">
+             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+             <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+             
+         </head>
+         <body>
+             
+                 <header>
+         
+         <div id="header"> Dopetrope </div>
+             <span id="header1">
+             <span>Desktop</span>
+             <span>Tablet</span>
+             <span>Tablet(propriat)</span>
+             <span>Mobile</span>
+         </span>
+         <div id="head2">
+          <span><li class="facebook"><div class="fb-like fb_iframe_widget" data-href="http://html5up.net/dopetrope" data-send="false" data-layout="button" data-width="100" data-show-faces="true" fb-xfbml-state="rendered" fb-iframe-plugin-query="app_id=&amp;container_width=56&amp;href=http%3A%2F%2Fhtml5up.net%2Fdopetrope&amp;layout=button&amp;locale=en_US&amp;sdk=joey&amp;send=false&amp;show_faces=true&amp;width=100"><span style="vertical-align: bottom; width: 60px; height: 28px;"><iframe name="f2a2bd2b21bbac" width="100px" height="1000px" data-testid="fb:like Facebook Social Plugin" title="fb:like Facebook Social Plugin" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" src="https://www.facebook.com/v2.0/plugins/like.php?app_id=&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df30e967f14db118%26domain%3Dhtml5up.net%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fhtml5up.net%252Fff79e3c08edb9c%26relation%3Dparent.parent&amp;container_width=56&amp;href=http%3A%2F%2Fhtml5up.net%2Fdopetrope&amp;layout=button&amp;locale=en_US&amp;sdk=joey&amp;send=false&amp;show_faces=true&amp;width=100" style="border: none; visibility: visible; width: 60px; height: 28px;" class=""></iframe></span></div></li></span>
+          <span class="abc"><li class="twitter"><iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" class="twitter-share-button twitter-share-button-rendered twitter-tweet-button" style="position: static; visibility: visible; width: 73px; height: 20px;" title="Twitter Tweet Button" src="https://platform.twitter.com/widgets/tweet_button.2b2d73daf636805223fb11d48f3e94f7.en.html#dnt=false&amp;id=twitter-widget-0&amp;lang=en&amp;original_referer=https%3A%2F%2Fhtml5up.net%2Fdopetrope&amp;size=m&amp;text=Dopetrope%3A%20A%20free%20fully%20responsive%20HTML5%2FCSS3%20site%20template&amp;time=1695810335078&amp;type=share&amp;url=https%3A%2F%2Fhtml5up.net%2Fdopetrope" data-url="https://html5up.net/dopetrope"></iframe></li></span>
+         <span> </span>
+         <span> </span>
+         <button>Back</button>
+         <button>Download(388,021)</button>
+         </div>
+                 </header>
+         
+         <section>
+           <h1>  Dopetrope</h1>
+           <span> <h4>Home</h4></span>
+           <span>Dropdown</span>
+           <span>left slidebar</span>
+           <span>RightSlideBar</span>
+           <span>Noslidebar</span>
+         </section>
+         
+         <footer>
+             <div id="demo1"> <i class="fa-solid fa-gear"></i>
+                 <p>Play your favorites.</p>
+             <p>Listen to the songs you love, and<br> discover new music and <br>podcasts.</p></div>
+             <div id="demo2"> <i class="fa-solid fa-bolt"></i>
+                 <p>Playlists made easy</p>
+             <p>We'll help you make playlists. Or enjoy playlists made by music experts.</p> </div>
+             <div id="demo3"> <i class="fa-regular fa-star"></i>
+                 <p>Make it yours.</p>
+             <p>Tell us what you like, and we'll recommend music for you.</p></div>
+             
+             
+         </footer>
+            
+         
+         </body>
+         </html>    
